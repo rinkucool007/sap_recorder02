@@ -1,0 +1,4 @@
+# SAP GUI Recorder (sap_recorder_ui.py) and the replay scripts it generates
+# Windows only - SAP GUI Scripting is a Windows COM API.
+# tkinter (the UI) ships with the standard Python installer from python.org - no pip package needed.
+pywin32>=306; sys_platform == "win32"
